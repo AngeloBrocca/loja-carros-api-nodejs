@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+
+# Arquivos de log
+logs
+*.log
+npm-debug.log*
+
+# Variáveis de ambiente
+.env
+
+# Banco SQLite
+*.sqlite
+*.sqlite3
+database.sqlite
+
+# Build
+dist/
+build/
+
+# Cobertura de testes
+coverage/
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Nodemom
+nodemon.json
