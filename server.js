@@ -20,15 +20,6 @@ app.use(
     swaggerUi.setup(swaggerSpec)
 );
 
-sequelize.sync()
-    .then(() => {
+sequelize.sync();
 
-        console.log("Banco conectado!");
-
-        app.listen(3000, () => {
-            console.log("Servidor rodando na porta 3000");
-        });
-    })
-    .catch((err) => {
-        console.log(err);
-    });
+module.exports = app;
